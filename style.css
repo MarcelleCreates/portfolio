@@ -226,28 +226,15 @@ section h2{
 }
 
 
-/* ==========================
-   VÍDEOS
-========================== */
+/* VÍDEOS */
 
 .projeto-card video{
-    display:block;
-
     width:100%;
-
-    max-width:300px;
-
-    height:auto;
-
-    margin:0 auto;
-
     border-radius:15px;
-
-    background:#020617;
 }
 
 
-/* TÍTULO */
+/* TÍTULO DOS PROJETOS */
 
 .projeto-card h3{
     margin:20px 0 10px;
@@ -376,15 +363,6 @@ footer{
     .botoes a{
         width:100%;
         text-align:center;
-    }
-
-
-    /* VÍDEOS NO CELULAR */
-
-    .projeto-card video{
-        max-width:250px;
-        width:100%;
-        height:auto;
     }
 
 }
