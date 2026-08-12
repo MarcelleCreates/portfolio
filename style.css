@@ -321,20 +321,20 @@ section h2{
 ========================= */
 
 /*
-   contain faz o vídeo aparecer inteiro
-   sem cortar nenhuma parte.
+   IMPORTANTE:
+   Não existe height fixo.
+   Não existe object-fit.
+   O vídeo mantém sua proporção original.
 */
 
 .projeto-card video{
+    display:block;
+
     width:100%;
 
     max-width:360px;
 
-    height:200px;
-
-    object-fit:contain;
-
-    display:block;
+    height:auto;
 
     margin:0 auto;
 
@@ -345,7 +345,7 @@ section h2{
 
 
 /* =========================
-   TÍTULOS DOS PROJETOS
+   TÍTULO DOS PROJETOS
 ========================= */
 
 .projeto-card h3{
@@ -515,19 +515,6 @@ footer p{
         grid-template-columns:1fr;
     }
 
-
-    /* Vídeos no tablet */
-
-    .projeto-card video{
-        width:100%;
-
-        max-width:340px;
-
-        height:190px;
-
-        object-fit:contain;
-    }
-
 }
 
 
@@ -579,7 +566,6 @@ footer p{
 
     .foto img{
         width:230px;
-
         height:230px;
     }
 
@@ -615,19 +601,6 @@ footer p{
 
     .projeto-card{
         padding:15px;
-    }
-
-
-    /* Vídeos no celular */
-
-    .projeto-card video{
-        width:100%;
-
-        max-width:300px;
-
-        height:170px;
-
-        object-fit:contain;
     }
 
     .projeto-card h3{
