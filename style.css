@@ -5,7 +5,6 @@
     scroll-behavior:smooth;
 }
 
-
 body{
     font-family:'Poppins',sans-serif;
     background:#0f172a;
@@ -13,12 +12,10 @@ body{
     line-height:1.6;
 }
 
-
 a{
     text-decoration:none;
     color:inherit;
 }
-
 
 img{
     max-width:100%;
@@ -49,24 +46,20 @@ header{
     z-index:1000;
 }
 
-
 .logo h2{
     color:#ec4899;
     font-size:28px;
 }
-
 
 nav{
     display:flex;
     gap:25px;
 }
 
-
 nav a{
     color:white;
     transition:.3s;
 }
-
 
 nav a:hover{
     color:#ec4899;
@@ -89,11 +82,9 @@ nav a:hover{
     gap:50px;
 }
 
-
 .texto{
     flex:1;
 }
-
 
 .texto span{
     color:#ec4899;
@@ -101,20 +92,17 @@ nav a:hover{
     font-size:14px;
 }
 
-
 .texto h1{
     font-size:55px;
     line-height:1.2;
     margin:15px 0;
 }
 
-
 .texto h2{
     color:#ec4899;
     margin-bottom:20px;
     font-size:25px;
 }
-
 
 .texto p{
     color:#cbd5e1;
@@ -130,18 +118,13 @@ nav a:hover{
 .habilidades{
     display:flex;
     flex-wrap:wrap;
-
     gap:12px;
-
     margin:30px 0;
 }
 
-
 .habilidades div{
     background:#1e293b;
-
     border:1px solid #ec4899;
-
     color:#ec4899;
 
     padding:10px 18px;
@@ -150,7 +133,6 @@ nav a:hover{
 
     transition:.3s;
 }
-
 
 .habilidades div:hover{
     background:#ec4899;
@@ -168,7 +150,6 @@ nav a:hover{
     margin-top:30px;
 }
 
-
 .botoes a{
     padding:14px 30px;
 
@@ -179,18 +160,15 @@ nav a:hover{
     transition:.3s;
 }
 
-
 .botoes a:first-child{
     background:#ec4899;
     color:white;
 }
 
-
 .botoes a:last-child{
     border:2px solid #ec4899;
     color:#ec4899;
 }
-
 
 .botoes a:hover{
     transform:translateY(-5px);
@@ -207,7 +185,6 @@ nav a:hover{
     display:flex;
     justify-content:center;
 }
-
 
 .foto img{
     width:350px;
@@ -230,7 +207,6 @@ nav a:hover{
 section{
     padding:100px 8%;
 }
-
 
 section h2{
     color:#ec4899;
@@ -255,13 +231,11 @@ section h2{
     border:1px solid rgba(236,72,153,.2);
 }
 
-
 .card-sobre p{
     color:#cbd5e1;
 
     margin-bottom:15px;
 }
-
 
 .card-sobre p:last-child{
     margin-bottom:0;
@@ -281,7 +255,6 @@ section h2{
     gap:20px;
 }
 
-
 .lista-tecnologias div{
     background:#1e293b;
 
@@ -297,7 +270,6 @@ section h2{
 
     transition:.3s;
 }
-
 
 .lista-tecnologias div:hover{
     background:#ec4899;
@@ -323,7 +295,6 @@ section h2{
     margin-top:30px;
 }
 
-
 .projeto-card{
     background:#1e293b;
 
@@ -338,7 +309,6 @@ section h2{
     overflow:hidden;
 }
 
-
 .projeto-card:hover{
     transform:translateY(-8px);
 
@@ -350,32 +320,35 @@ section h2{
    VÍDEOS
 ========================= */
 
-.projeto-card video{
+/*
+   contain faz o vídeo aparecer inteiro
+   sem cortar nenhuma parte.
+*/
 
+.projeto-card video{
     width:100%;
 
-    max-width:300px;
+    max-width:360px;
 
-    height:170px;
+    height:200px;
 
-    object-fit:cover;
-
-    border-radius:12px;
+    object-fit:contain;
 
     display:block;
 
     margin:0 auto;
+
+    border-radius:12px;
 
     background:#020617;
 }
 
 
 /* =========================
-   TÍTULO DOS PROJETOS
+   TÍTULOS DOS PROJETOS
 ========================= */
 
 .projeto-card h3{
-
     margin:20px 0 10px;
 
     color:#f8fafc;
@@ -383,9 +356,7 @@ section h2{
     font-size:21px;
 }
 
-
 .projeto-card p{
-
     color:#cbd5e1;
 
     font-size:14px;
@@ -397,7 +368,6 @@ section h2{
 ========================= */
 
 .formacao-card{
-
     background:#1e293b;
 
     padding:30px;
@@ -413,9 +383,7 @@ section h2{
     border:1px solid rgba(236,72,153,.2);
 }
 
-
 .formacao-card img{
-
     width:90px;
 
     height:90px;
@@ -429,16 +397,13 @@ section h2{
     padding:5px;
 }
 
-
 .formacao-card h3{
     margin-bottom:5px;
 }
 
-
 .formacao-card p{
     color:#cbd5e1;
 }
-
 
 .formacao-card strong{
     color:#ec4899;
@@ -450,7 +415,6 @@ section h2{
 ========================= */
 
 .contato-card{
-
     max-width:700px;
 
     padding:35px;
@@ -462,17 +426,13 @@ section h2{
     background:#1e293b;
 }
 
-
 .contato-card p{
-
     color:#cbd5e1;
 
     margin:15px 0;
 }
 
-
 .contato-card p:last-child{
-
     color:#f8fafc;
 
     margin-top:25px;
@@ -484,14 +444,12 @@ section h2{
 ========================= */
 
 footer{
-
     background:#020617;
 
     text-align:center;
 
     padding:35px;
 }
-
 
 footer p{
     color:#94a3b8;
@@ -505,7 +463,6 @@ footer p{
 @media(max-width:900px){
 
     header{
-
         flex-direction:column;
 
         gap:15px;
@@ -513,9 +470,7 @@ footer p{
         padding:15px 5%;
     }
 
-
     nav{
-
         flex-wrap:wrap;
 
         justify-content:center;
@@ -523,9 +478,7 @@ footer p{
         gap:15px;
     }
 
-
     #inicio{
-
         flex-direction:column-reverse;
 
         text-align:center;
@@ -533,53 +486,46 @@ footer p{
         padding-top:180px;
     }
 
-
     .texto h1{
         font-size:40px;
     }
 
-
     .texto p{
-
         margin-left:auto;
-
         margin-right:auto;
     }
 
-
     .botoes{
-
         justify-content:center;
 
         flex-wrap:wrap;
     }
 
-
     .habilidades{
-
         justify-content:center;
     }
 
-
     .formacao-card{
-
         flex-direction:column;
 
         text-align:center;
     }
 
-
     .projetos{
-
         grid-template-columns:1fr;
     }
 
 
+    /* Vídeos no tablet */
+
     .projeto-card video{
+        width:100%;
 
-        max-width:300px;
+        max-width:340px;
 
-        height:170px;
+        height:190px;
+
+        object-fit:contain;
     }
 
 }
@@ -592,147 +538,107 @@ footer p{
 @media(max-width:600px){
 
     header{
-
         padding:12px 5%;
     }
 
-
     .logo h2{
-
         font-size:22px;
     }
 
-
     nav{
-
         gap:10px;
     }
 
-
     nav a{
-
         font-size:12px;
     }
 
-
     section{
-
         padding:80px 5%;
     }
 
-
     section h2{
-
         font-size:32px;
     }
 
-
     #inicio{
-
         padding-top:180px;
     }
 
-
     .texto h1{
-
         font-size:32px;
     }
 
-
     .texto h2{
-
         font-size:20px;
     }
 
-
     .texto span{
-
         font-size:12px;
     }
 
-
     .foto img{
-
         width:230px;
 
         height:230px;
     }
 
-
     .habilidades{
-
         justify-content:center;
     }
 
-
     .habilidades div{
-
         padding:8px 14px;
 
         font-size:14px;
     }
 
-
     .botoes{
-
         flex-direction:column;
 
         gap:12px;
     }
 
-
     .botoes a{
-
         width:100%;
 
         text-align:center;
     }
 
-
     .lista-tecnologias{
-
         grid-template-columns:1fr;
     }
-
 
     .projetos{
-
         grid-template-columns:1fr;
     }
 
-
     .projeto-card{
-
         padding:15px;
     }
 
 
-    /* VÍDEOS NO CELULAR */
+    /* Vídeos no celular */
 
     .projeto-card video{
-
         width:100%;
 
-        max-width:280px;
+        max-width:300px;
 
-        height:158px;
+        height:170px;
+
+        object-fit:contain;
     }
 
-
     .projeto-card h3{
-
         font-size:20px;
     }
 
-
     .formacao-card{
-
         padding:25px;
     }
 
-
     .contato-card{
-
         padding:25px;
     }
 
